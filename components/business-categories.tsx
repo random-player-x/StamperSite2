@@ -1,22 +1,7 @@
 import Image from "next/image";
-import Logo04 from "@/public/images/logo-04.svg";
-
-import Logo07 from "@/public/images/logo-07.svg";
-import Logo08 from "@/public/images/logo-08.svg";
 import mainlogo from "@/public/images/mainlogo.svg";
 
-import { LottieAnimation2 } from "@/components/lottiejson";
-import { LottieAnimation1 } from "@/components/lottiejson";
-import { LottieAnimation3 } from "@/components/lottiejson";
-import { LottieAnimation4 } from "@/components/lottiejson";
-import { LottieAnimation5 } from "@/components/lottiejson";
-import { LottieAnimation6 } from "@/components/lottiejson";
-interface LottieAnimationProps {
-  height?: number;
-  width?: number;
-  loop?: boolean;
-  autoplay?: boolean;
-}
+import { LottiePlayer3, LottiePlayer5, LottiePlayer1, LottiePlayer2, LottiePlayer4, LottiePlayer6 } from "@/components/lottiejson";
 
 export default function BusinessCategories() {
   return (
@@ -223,42 +208,42 @@ export default function BusinessCategories() {
                 <div className="absolute -translate-x-[216px] -translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_3.5s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
-                      <LottieAnimation4 width={100} height={100} />
+                      <LottiePlayer4/>
                     </div>
                   </div>
                 </div>
                 <div className="absolute -translate-y-[82px] translate-x-[216px]">
                   <div className="animate-[breath_6s_ease-in-out_1.5s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
-                      <LottieAnimation1 width={60} height={60} />
+                      <LottiePlayer1/>
                     </div>
                   </div>
                 </div>
                 <div className="absolute translate-x-[216px] translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
-                      <LottieAnimation2 width={60} height={60} />
+                      <LottiePlayer2 />
                     </div>
                   </div>
                 </div>
                 <div className="absolute -translate-x-[216px] translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_2.5s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
-                      <LottieAnimation6 width={100} height={100} />
+                      <LottiePlayer6 />
                     </div>
                   </div>
                 </div>
                 <div className="absolute -translate-x-[292px]">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                      <LottieAnimation5 width={60} height={60} />
+                      <LottiePlayer5 />
                     </div>
                   </div>
                 </div>
                 <div className="absolute translate-x-[292px]">
                   <div className="animate-[breath_6s_ease-in-out_4s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                      <LottieAnimation3 width={60} height={60} />
+                      <LottiePlayer3 />
                     </div>
                   </div>
                 </div>

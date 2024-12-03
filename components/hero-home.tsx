@@ -6,7 +6,7 @@ import Rapunzel from "@/public/images/bluerapunzel.jpeg";
 import Alice from "@/public/images/redalice.jpeg";
 import Alladin from "@/public/images/purplealladin.jpeg";
 import Peter from "@/public/images/greenpeter.jpeg";
-import { LottieAnimation7 } from "@/components/lottiejson";
+import { LottiePlayer7 } from "@/components/lottiejson";
 
 export default function HeroHome() {
   return (
@@ -89,7 +89,7 @@ export default function HeroHome() {
           </div>
           {/* Hero image */}
           <div className="flex items-center justify-center">
-            <LottieAnimation7 />
+            <LottiePlayer7 />
           </div>
           <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
