@@ -9,6 +9,8 @@ import { LottieAnimation2 } from "@/components/lottiejson";
 import { LottieAnimation1 } from "@/components/lottiejson";
 import { LottieAnimation3 } from "@/components/lottiejson";
 import { LottieAnimation4 } from "@/components/lottiejson";
+import { LottieAnimation5 } from "@/components/lottiejson";
+import { LottieAnimation6 } from "@/components/lottiejson";
 interface LottieAnimationProps {
   height?: number;
   width?: number;
@@ -242,26 +244,14 @@ export default function BusinessCategories() {
                 <div className="absolute -translate-x-[216px] translate-y-[82px]">
                   <div className="animate-[breath_6s_ease-in-out_2.5s_infinite_both]">
                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
-                      <Image
-                        className="relative"
-                        src={Logo07}
-                        width={25}
-                        height={25}
-                        alt="Logo 07"
-                      />
+                      <LottieAnimation6 width={100} height={100} />
                     </div>
                   </div>
                 </div>
-                <div className="absolute -translate-x-[292px] opacity-40">
+                <div className="absolute -translate-x-[292px]">
                   <div className="animate-[breath_6s_ease-in-out_2s_infinite_both]">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
-                      <Image
-                        className="relative"
-                        src={Logo08}
-                        width={20}
-                        height={20}
-                        alt="Logo 08"
-                      />
+                    <div className="flex h-20 w-20 items-center justify-center rounded-full border border-gray-200/60 bg-white shadow-lg">
+                      <LottieAnimation5 width={60} height={60} />
                     </div>
                   </div>
                 </div>

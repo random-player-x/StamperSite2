@@ -1,16 +1,12 @@
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
-import Avatar01 from "@/public/images/avatar-01.jpg";
-import Avatar02 from "@/public/images/avatar-02.jpg";
 import Tigger from "@/public/images/tiggerOrange.jpg";
-import Avatar04 from "@/public/images/avatar-04.jpg";
-import Avatar05 from "@/public/images/avatar-05.jpg";
 import Avatar06 from "@/public/images/avatar-06.jpeg";
 import Rapunzel from "@/public/images/bluerapunzel.jpeg";
 import Alice from "@/public/images/redalice.jpeg";
 import Alladin from "@/public/images/purplealladin.jpeg";
 import Peter from "@/public/images/greenpeter.jpeg";
-
+import { LottieAnimation7 } from "@/components/lottiejson";
 
 export default function HeroHome() {
   return (
@@ -18,11 +14,11 @@ export default function HeroHome() {
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pb-12 pt-32 md:pb-20 md:pt-40">
+        <div className="pt-32 md:pb-20 md:pt-40">
           {/* Section header */}
-          <div className="pb-12 text-center md:pb-16">
+          <div className="text-center items-center justify-center">
             <div
-              className="mb-6 border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
+              className=" border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
               data-aos="zoom-y-out"
             >
               <div className="-mx-0.5 flex justify-center -space-x-3">
@@ -77,7 +73,7 @@ export default function HeroHome() {
             >
               stamper.ai
             </h1>
-            
+
             <div className="mx-auto max-w-3xl">
               <p
                 className="mb-8 text-3xl text-orange-400"
@@ -87,7 +83,15 @@ export default function HeroHome() {
                 GenAI products to create Joy
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
-                <div
+               
+              </div>
+            </div>
+          </div>
+          {/* Hero image */}
+          <div className="flex items-center justify-center">
+            <LottieAnimation7 />
+          </div>
+          <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
@@ -110,18 +114,9 @@ export default function HeroHome() {
                     Learn More
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-          {/* Hero image */}
-          <div
-            className="mx-auto max-w-3xl"
-            data-aos="zoom-y-out"
-            data-aos-delay={600}
-          >
-          </div>
         </div>
       </div>
     </section>
   );
 }
+
