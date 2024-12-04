@@ -80,7 +80,7 @@ export default function Home() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative absolute z-20">
       <Particles
         className="absolute inset-0 -z-10"
         options={particlesOptions}
