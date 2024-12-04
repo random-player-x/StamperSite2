@@ -15,7 +15,7 @@ type LottieAnimationProps = {
 // Dynamically Import Lottie Player (client-side only)
 const Player = dynamic(() => import('lottie-react'), {
   ssr: false,
-  loading: () => <div>Loading Animation...</div>,
+  loading: () => <div>Loading...</div>,
 });
 
 // Generic Lottie Animation Component
