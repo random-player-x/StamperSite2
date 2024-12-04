@@ -43,7 +43,7 @@ export default function Home() {
         distance: 150,
         color: "#808080",
         opacity: 0.4,
-        width: 1,
+        width: 0,
       },
       move: {
         enable: true,
