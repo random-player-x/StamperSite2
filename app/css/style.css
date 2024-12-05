@@ -18,3 +18,8 @@ html, body {
     font-family: inherit;
 }
   
+.scale-wrapper {
+    transform: scale(1.5); /* Scales up the component by 2x */
+    transform-origin: center; /* Keeps scaling centered */
+  }
+  

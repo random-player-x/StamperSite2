@@ -1,10 +1,11 @@
 import Image from "next/image";
 import mainlogo from "@/public/images/mainlogo.svg";
-
+import "@/app/css/style.css";
 import { LottiePlayer3, LottiePlayer5, LottiePlayer1, LottiePlayer2, LottiePlayer4, LottiePlayer6 } from "@/components/lottiejson";
 
 export default function BusinessCategories() {
   return (
+    <div className="scale-wrapper mt-20">
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
@@ -253,5 +254,6 @@ export default function BusinessCategories() {
         </div>
       </div>
     </section>
+    </div>
   );
 }

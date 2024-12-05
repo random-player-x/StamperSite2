@@ -8,7 +8,7 @@ import PlanetTagImg04 from "@/public/images/Group 21.jpg";
 export default function FeaturesPlanet() {
   return (
     <section className="z-10 relative before:absolute before:inset-0 before:-z-20 before:bg-yello-400">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 bg-gray-100 rounded-full">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 bg-[#f4f4f6] rounded-full">
         <div className="py-12 ">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center">

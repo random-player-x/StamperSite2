@@ -67,7 +67,7 @@ export default function HeroHome() {
               </div>
             </div>
             <h1
-              className="mb-6 bg-white w-fit px-10 pb-3 mx-auto mt-5 rounded-full text-8xl font-bold relative"
+              className="mb-6 bg-[#f4f4f6] w-fit px-10 pb-3 mx-auto mt-5 rounded-full text-8xl font-bold relative"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
@@ -117,7 +117,7 @@ export default function HeroHome() {
 
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-3xl text-amber-900"
+                className="mb-8 font-bold text-3xl text-amber-900"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
@@ -134,22 +134,9 @@ export default function HeroHome() {
           </div>
           <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
-                  data-aos="zoom-y-out"
-                  data-aos-delay={450}
                 >
                   <a
-                    className="hover:bg-white hover:text-black btn group mb-4 w-full bg-green-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
-                  >
-                    <span className="relative inline-flex items-center">
-                      Register Interest{" "}
-                      <span className="ml-1 tracking-normal text-white transition-transform group-hover:translate-x-0.5">
-                        -&gt;
-                      </span>
-                    </span>
-                  </a>
-                  <a
-                    className="btn w-full bg-yellow-300 text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
+                    className="btn w-full text-xl bg-amber-900 text-white md:w-1/4 shadow hover:bg-amber-100 hover:text-black sm:ml-4 sm:w-auto"
                     href="#0"
                   >
                     Learn More
