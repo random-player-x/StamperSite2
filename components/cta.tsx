@@ -6,7 +6,7 @@ export default function Cta() {
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div
-          className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-amber-950"
+          className="relative overflow-hidden rounded-2xl text-center shadow-xl before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:rounded-2xl before:bg-white"
           data-aos="zoom-y-out"
         >
           {/* Glow */}
@@ -14,7 +14,7 @@ export default function Cta() {
             className="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2 translate-y-1/2"
             aria-hidden="true"
           >
-            <div className="h-56 w-[480px] rounded-full border-[20px] border-black blur-3xl" />
+            <div className="h-56 w-[480px] rounded-full border-[20px] blur-3xl" />
           </div>
           {/* Stripes illustration */}
           <div
@@ -30,17 +30,17 @@ export default function Cta() {
             />
           </div>
           <div className="px-4 py-12 md:px-12 md:py-20">
-            <h2 className="mb-6 border-y text-3xl font-bold text-orange-300 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
+            <h2 className="mb-6 border-y text-3xl font-bold text-blue-500 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.700/.7),transparent)1] md:mb-12 md:text-4xl">
               Register for early access
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
-                className="btn group mb-4 w-full bg-gradient-to-t from-black to-orange-600 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                className="btn group mb-4 w-full bg-gradient-to-t hover:bg-orange-600 bg-orange-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                 href="#0"
               >
                 <span className="relative inline-flex items-center">
                   Start Free Trial{" "}
-                  <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
+                  <span className="ml-1 tracking-normal text-white transition-transform group-hover:translate-x-0.5">
                     -&gt;
                   </span>
                 </span>

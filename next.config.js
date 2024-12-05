@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    domains: ['gratisography.com'],
-  },
+  optimizeFonts: true,
 }
 
 module.exports = nextConfig;

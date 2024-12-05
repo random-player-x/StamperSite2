@@ -67,16 +67,57 @@ export default function HeroHome() {
               </div>
             </div>
             <h1
-              className="mb-6 border-y text-8xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-8xl"
+              className="mb-6 bg-white w-fit px-10 pb-3 mx-auto mt-5 rounded-full text-8xl font-bold relative"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              stamper.ai
+              <span className="mr-1"
+                style={{
+                  color: "#FF9519",
+                  textShadow: "7px 0px black",
+                  fontFamily: "Lexend, sans-serif"
+                }}
+              >
+                n
+              </span>
+              <span className="mr-1"
+                style={{
+                  color: "#4FA0FF",
+                  textShadow: "7px 0px black",
+                }}
+              >
+                a
+              </span>
+              <span className="mr-1"
+                style={{
+                  color: "#FFE34F",
+                  textShadow: "7px 0px black",
+                }}
+              >
+                n
+              </span>
+              <span className="mr-1"
+                style={{
+                  color: "#2DD702",
+                  textShadow: "7px 0px black",
+                }}
+              >
+                e
+              </span>
+              <span className="mr-1"
+                style={{
+                  color: "#FF1F00",
+                  textShadow: "7px 0px black",
+                }}
+              >
+                e
+              </span>
             </h1>
+
 
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-3xl text-orange-400"
+                className="mb-8 text-3xl text-amber-900"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
@@ -97,7 +138,7 @@ export default function HeroHome() {
                   data-aos-delay={450}
                 >
                   <a
-                    className="btn group mb-4 w-full bg-green-400 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+                    className="hover:bg-white hover:text-black btn group mb-4 w-full bg-green-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
@@ -108,7 +149,7 @@ export default function HeroHome() {
                     </span>
                   </a>
                   <a
-                    className="btn w-full bg-yellow-400 text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
+                    className="btn w-full bg-yellow-300 text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="#0"
                   >
                     Learn More

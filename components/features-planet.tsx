@@ -7,12 +7,12 @@ import PlanetTagImg04 from "@/public/images/Group 21.jpg";
 
 export default function FeaturesPlanet() {
   return (
-    <section className="z-10 relative before:absolute before:inset-0 before:-z-20 before:bg-gray-50">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+    <section className="z-10 relative before:absolute before:inset-0 before:-z-20 before:bg-yello-400">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 bg-gray-100 rounded-full">
+        <div className="py-12 ">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center">
-             <h2 className="text-3xl font-bold text-amber-900 mb-10 md:text-5xl">
+             <h2 className="text-3xl font-bold text-amber-900 mb-5 md:text-5xl">
               everyone_at_one_place
             </h2> 
           </div>
@@ -38,14 +38,14 @@ export default function FeaturesPlanet() {
                       alt="Tag 01"
                     />
                     <Image
-                      className="rounded-full absolute left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-30 transition-opacity duration-500"
+                      className="rounded-full absolute left-56 top-7 z-10 animate-[float_4s_ease-in-out_infinite_1s_both] opacity-70 transition-opacity duration-500"
                       src={PlanetTagImg02}
                       width={241}
                       height={56}
                       alt="Tag 02"
                     />
                     <Image
-                      className="rounded-full absolute -left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-25 transition-opacity duration-500"
+                      className="rounded-full absolute -left-20 bottom-24 z-10 animate-[float_4s_ease-in-out_infinite_2s_both] opacity-70 transition-opacity duration-500"
                       src={PlanetTagImg03}
                       width={243}
                       height={56}

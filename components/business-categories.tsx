@@ -193,14 +193,14 @@ export default function BusinessCategories() {
               <article className="flex h-full w-full items-center justify-center focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300">
                 <div className="absolute -translate-x-[136px]">
                   <div className="animate-[breath_7s_ease-in-out_3s_infinite_both]">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className=" font-bold flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       Connect
                     </div>
                   </div>
                 </div>
                 <div className="absolute translate-x-[136px]">
                   <div className="animate-[breath_7s_ease-in-out_3.5s_infinite_both]">
-                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
+                    <div className="font-bold flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg shadow-black/[0.03] before:absolute before:inset-0 before:m-[8.334%] before:rounded-[inherit] before:border before:border-gray-700/5 before:bg-white before:[mask-image:linear-gradient(to_bottom,black,transparent)]">
                       Create
                     </div>
                   </div>
