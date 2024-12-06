@@ -7,12 +7,13 @@ import PlanetTagImg04 from "@/public/images/Group 21.jpg";
 
 export default function FeaturesPlanet() {
   return (
+    <div className="scale-wrapper-2">
     <section className="z-10 relative before:absolute before:inset-0 before:-z-20 before:bg-yello-400">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 bg-[#f4f4f6] rounded-full">
         <div className="py-12 ">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl pb-16 text-center">
-             <h2 className="text-3xl font-bold text-amber-900 mb-5 md:text-5xl">
+          <div className="mx-auto max-w-3xl pb-6 sm:pb-16 text-center">
+             <h2 className="text-3xl font-bold text-amber-900 sm:mb-0 md:text-5xl">
               everyone_at_one_place
             </h2> 
           </div>
@@ -67,5 +68,6 @@ export default function FeaturesPlanet() {
         </div>
       </div>
     </section>
+    </div>
   );
 }

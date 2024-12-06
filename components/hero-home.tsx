@@ -10,6 +10,7 @@ import { LottiePlayer7 } from "@/components/lottiejson";
 
 export default function HeroHome() {
   return (
+    <div className="scale-wrapper-3">
     <section className="relative">
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -145,6 +146,7 @@ export default function HeroHome() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
 
