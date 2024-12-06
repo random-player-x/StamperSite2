@@ -44,7 +44,7 @@ import mascotQnASearch from '../public/animations/Mascot_QnA_Search.json';
 import mascotMultimedia from '../public/animations/Mascot_Multimedia.json';
 import mascotHomeDefault from '../public/animations/Mascot Home Default.json';
 import mascotLogin from '../public/animations/Mascot Login.json';
-
+import contactusmascot from '../public/animations/contactusmascot.json';
 // Reusable Components with Specific Animations
 export const LottiePlayer1 = () => (
   <LottieAnimation height={60} width={60} animationData={mascotSing} />
@@ -72,4 +72,8 @@ export const LottiePlayer6 = () => (
 
 export const LottiePlayer7 = () => (
   <LottieAnimation animationData={mascotLogin} height={400} width={400} />
+);
+
+export const LottiePlayer8 = () => (
+  <LottieAnimation animationData={contactusmascot} height={400} width={600} />
 );

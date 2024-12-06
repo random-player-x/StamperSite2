@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Logo from "./logo";
 import mainlogo from "@/public/images/mainlogo.svg";
 import Image from "next/image";
 export default function Header() {
@@ -22,7 +21,7 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="/signup"
+                href="/contactUs"
                 className="btn-sm bg-amber-900 text-gray-200 shadow hover:bg-gray-900"
               >
                 Contact Us
