@@ -138,7 +138,7 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn w-full text-xl bg-amber-900 text-white md:w-1/4 shadow hover:bg-amber-100 hover:text-black sm:ml-4 sm:w-auto"
-                    href="#0"
+                    href="/contactUs"
                   >
                     Learn More
                   </a>

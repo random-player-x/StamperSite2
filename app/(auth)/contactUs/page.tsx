@@ -1,8 +1,20 @@
+'use client';
+
 import { LottiePlayer8 } from "@/components/lottiejson";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+import { useState } from "react";
 
 export default function ContactUs() {
+  const [clicked, setClicked] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setClicked(true);
+    alert('Message sent successfully!');
+    window.location.reload();
+  };
+
   return (
     <div className="">
       <Header />
@@ -13,7 +25,7 @@ export default function ContactUs() {
         <div className="py-4 md:py-6 lg:py-8 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-2xl md:text-3xl lg:text-4xl tracking-tight font-extrabold text-center text-white">Contact Us</h2>
           <p className="mb-4 md:mb-8 lg:mb-16 font-light text-center text-white text-sm md:text-base lg:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-          <form action="#" className="space-y-4 md:space-y-6 lg:space-y-8">
+          <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6 lg:space-y-8">
             <div>
                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">Your email</label>
                 <input type="email" id="email" className="block p-2 md:p-3 w-full text-sm text-white bg-gray-700 rounded-lg border border-gray-400 shadow-sm focus:ring-primary-500 focus:border-primary-500" placeholder="name@example.com" required />
@@ -26,7 +38,7 @@ export default function ContactUs() {
                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-white">Your message</label>
                 <textarea id="message" rows={6} className="block p-2 md:p-2.5 w-full text-sm text-white bg-gray-700 rounded-lg shadow-sm border border-gray-400 focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..." />
             </div>
-            <button type="submit" className="w-full md:w-auto py-2.5 md:py-3 px-5 text-sm border border-gray-400 hover:border-gray-500 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">Send message</button>
+            <button type="submit" className="w-full md:w-auto py-2.5 md:py-3 px-5 text-sm border border-gray-400 hover:border-gray-500 font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300">{clicked ? 'Message Sent' : 'Send message'}</button>
         </form>
         </div>
       </section>
