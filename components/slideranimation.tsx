@@ -7,15 +7,17 @@ import Alice from '../public/images/redalice.jpeg';
 import Peter from '../public/images/greenpeter.jpeg';
 import Tigger from '../public/images/tiggerOrange.jpg';
 import Mickey from '../public/images/avatar-06.jpeg';
+import Oswald from '../public/images/oswald.png';
+import Zorro from '../public/images/zorro3.png';
 
 const SliderAnimation: React.FC = () => {
   const AvatarImages = [
-   rapunzel, Alladin, Alice, Peter, Tigger, Mickey
+   rapunzel, Alladin, Alice, Peter, Tigger, Mickey, Oswald, Zorro
   ];
 
   return (
-    <div className="banner w-screen mt-[400px] mb-[-300px]">
-      <div className="slider" style={{ '--quantity': '6' } as React.CSSProperties}>
+    <div className="banner w-screen mb-[-300px]">
+      <div className="slider" style={{ '--quantity': '8' } as React.CSSProperties}>
         {AvatarImages.map((image, i) => (
           <div 
             className="item pb-4" 

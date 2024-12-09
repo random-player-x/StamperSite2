@@ -5,8 +5,8 @@ import { LottiePlayer3, LottiePlayer5, LottiePlayer1, LottiePlayer2, LottiePlaye
 
 export default function BusinessCategories() {
   return (
-    <div className="scale-wrapper mt-20">
-    <section>
+    <div >
+    <section className="scale-wrapper mt-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Tab panels */}
@@ -254,6 +254,15 @@ export default function BusinessCategories() {
         </div>
       </div>
     </section>
+
+          <div className="mb-[200px] mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
+                  <a
+                    className="btn w-full text-xl bg-amber-900 text-white md:w-1/4 shadow hover:bg-amber-100 hover:text-black sm:ml-4 sm:w-auto"
+                    href="/contactUs"
+                  >
+                    Learn More
+                  </a>
+          </div>
     </div>
   );
 }

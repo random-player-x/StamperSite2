@@ -15,3 +15,6 @@ html, body {
 
 /* Add a universal selector to ensure Lexend is used everywhere */
 
+.scale-wrapper {
+    transform: scale(1.6);
+}

@@ -16,9 +16,9 @@ export default function HeroHome() {
           <div className="text-center items-center justify-center">
           <div>
                 <h1 className="text-center mb-10">
-                <div className="relative bg-gray-100 rounded-full items-center justify-center text-gray-400 font-bold text-4xl lg:text-[200px]  animate-border shadow-[inset_0_0_20px_rgba(0,0,0,0.3)]"
+                <div className="relative w-1/2 mx-auto bg-gray-50 rounded-full items-center justify-center text-gray-400 font-bold text-4xl lg:text-[150px] animate-border shadow-[inset_0_0_20px_rgba(0,0,0,0.3)] px-4 py-1"
                   >
-
+                    <div className="mt-[-20px]">
                     <span className="mr-1"
                       style={{
                         color: "#FF9519",
@@ -60,6 +60,7 @@ export default function HeroHome() {
                     >
                       e
                     </span>
+                    </div>
                         </div>
                       </h1>
                     </div>
@@ -81,24 +82,14 @@ export default function HeroHome() {
               </div>
             </div>
           </div>
+          <div className="flex items-center justify-center">
+            <LottiePlayer7 />
+          </div>
           {/* Full width slider section */}
           <div className="relative left-[50%] right-[50%] mx-[-50vw] w-screen">
             <SliderAnimation />
           </div>
           {/* Hero image */}
-          <div className="flex items-center justify-center">
-            <LottiePlayer7 />
-          </div>
-          <div
-                  className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
-                >
-                  <a
-                    className="btn w-full text-xl bg-amber-900 text-white md:w-1/4 shadow hover:bg-amber-100 hover:text-black sm:ml-4 sm:w-auto"
-                    href="/contactUs"
-                  >
-                    Learn More
-                  </a>
-                </div>
         </div>
       </div>
     </section>
