@@ -14,46 +14,4 @@ html, body {
 }
 
 /* Add a universal selector to ensure Lexend is used everywhere */
-* {
-    font-family: inherit;
-}
-  
-/* Default scale (for small screens) */
-.scale-wrapper {
-    transform: scale(0.5); /* Default scale */
-    transform-origin: center;
-  }
-  
-  /* Medium screens (tablets) */
-  @media (min-width: 640px) {
-    .scale-wrapper {
-      transform: scale(0.95); /* Slightly larger */
-    }
-  }
-  
-  /* Large screens (laptops/desktops) */
-  @media (min-width: 1024px) {
-    .scale-wrapper {
-      transform: scale(1.5); /* Larger scaling for bigger screens */
-    }
-  }
-  
-  .scale-wrapper-2 {
-    transform: scale(0.8); /* Slightly larger */
-  }
 
-  @media (min-width: 640px) {
-    .scale-wrapper-2 {
-      transform: scale(1); /* Slightly larger */
-    }
-  }
-  
-  .scale-wrapper-3 {
-    transform: scale(0.8); /* Slightly larger */
-  }
-
-  @media (min-width: 640px) {
-    .scale-wrapper-3 {
-      transform: scale(1.1); /* Slightly larger */
-    }
-  }

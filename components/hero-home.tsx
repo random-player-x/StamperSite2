@@ -1,12 +1,8 @@
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
-import Tigger from "@/public/images/tiggerOrange.jpg";
-import Avatar06 from "@/public/images/avatar-06.jpeg";
-import Rapunzel from "@/public/images/bluerapunzel.jpeg";
-import Alice from "@/public/images/redalice.jpeg";
-import Alladin from "@/public/images/purplealladin.jpeg";
-import Peter from "@/public/images/greenpeter.jpeg";
+import SliderAnimation from "@/components/slideranimation";
 import { LottiePlayer7 } from "@/components/lottiejson";
+import "./style.css";
 
 export default function HeroHome() {
   return (
@@ -15,110 +11,66 @@ export default function HeroHome() {
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pt-32 md:pb-20 md:pt-40">
+        <div className="pt-32 md:pb-20 md:pt-40 w-full justify-center items-center">
           {/* Section header */}
           <div className="text-center items-center justify-center">
-            <div
-              className=" border-y [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"
-              data-aos="zoom-y-out"
-            >
-              <div className="-mx-0.5 flex justify-center -space-x-3">
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Rapunzel}
-                  width={80}
-                  height={80}
-                  alt="Avatar 01"
-                />
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Alladin}
-                  width={80}
-                  height={80}
-                  alt="Avatar 02"
-                />
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Tigger}
-                  width={80}
-                  height={80}
-                  alt="Avatar 03"
-                />
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Peter}
-                  width={80}
-                  height={80}
-                  alt="Avatar 04"
-                />
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Alice}
-                  width={80}
-                  height={80}
-                  alt="Avatar 05"
-                />
-                <Image
-                  className="box-content rounded-full border-2 border-gray-50"
-                  src={Avatar06}
-                  width={80}
-                  height={80}
-                  alt="Avatar 06"
-                />
-              </div>
-            </div>
-            <h1
-              className="mb-6 bg-[#f4f4f6] w-fit px-10 pb-3 mx-auto mt-5 rounded-full text-8xl font-bold relative"
-              data-aos="zoom-y-out"
-              data-aos-delay={150}
-            >
-              <span className="mr-1"
-                style={{
-                  color: "#FF9519",
-                  textShadow: "7px 0px black",
-                  fontFamily: "Lexend, sans-serif"
-                }}
-              >
-                n
-              </span>
-              <span className="mr-1"
-                style={{
-                  color: "#4FA0FF",
-                  textShadow: "7px 0px black",
-                }}
-              >
-                a
-              </span>
-              <span className="mr-1"
-                style={{
-                  color: "#FFE34F",
-                  textShadow: "7px 0px black",
-                }}
-              >
-                n
-              </span>
-              <span className="mr-1"
-                style={{
-                  color: "#2DD702",
-                  textShadow: "7px 0px black",
-                }}
-              >
-                e
-              </span>
-              <span className="mr-1"
-                style={{
-                  color: "#FF1F00",
-                  textShadow: "7px 0px black",
-                }}
-              >
-                e
-              </span>
+          <div>
+                <h1 className="text-center mb-10">
+                <div className="relative bg-gray-100 rounded-full items-center justify-center text-gray-400 font-bold text-4xl lg:text-[200px]  animate-border shadow-[inset_0_0_20px_rgba(0,0,0,0.3)]"
+                  >
+
+                    <span className="mr-1"
+                      style={{
+                        color: "#FF9519",
+                        textShadow: "10px 0px black",
+                        fontFamily: "Lexend, sans-serif"
+                      }}
+                    >
+                      n
+                    </span>
+                    <span className="mr-1"
+                      style={{
+                        color: "#4FA0FF",
+                        textShadow: "10px 0px black",
+                      }}
+                    >
+                      a
+                    </span>
+                    <span className="mr-1"
+                      style={{
+                        color: "#FFE34F",
+                        textShadow: "10px 0px black",
+                      }}
+                    >
+                      n
+                    </span>
+                    <span className="mr-1"
+                      style={{
+                        color: "#2DD702",
+                        textShadow: "10px 0px black",
+                      }}
+                    >
+                      e
+                    </span>
+                    <span className="mr-1"
+                      style={{
+                        color: "#FF1F00",
+                        textShadow: "10px 0px black",
+                      }}
+                    >
+                      e
+                    </span>
+                        </div>
+                      </h1>
+                    </div>
+                  <h1
+                  >
             </h1>
 
 
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 font-bold text-3xl text-amber-900"
+                className="mb-8 font-bold text-4xl text-amber-900"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
@@ -128,6 +80,10 @@ export default function HeroHome() {
                
               </div>
             </div>
+          </div>
+          {/* Full width slider section */}
+          <div className="relative left-[50%] right-[50%] mx-[-50vw] w-screen">
+            <SliderAnimation />
           </div>
           {/* Hero image */}
           <div className="flex items-center justify-center">
