@@ -5,8 +5,8 @@ import { LottiePlayer3, LottiePlayer5, LottiePlayer1, LottiePlayer2, LottiePlaye
 
 export default function BusinessCategories() {
   return (
-    <div >
-    <section className="scale-wrapper mt-20">
+    <div className="scale-50 lg:scale-125">
+    <section className="scale-100 lg:scale-125 mt-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Tab panels */}
@@ -255,7 +255,7 @@ export default function BusinessCategories() {
       </div>
     </section>
 
-          <div className="mb-[200px] mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
+          <div className="mb-[200px] scale-75 mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                   <a
                     className="btn w-full text-xl bg-amber-900 text-white md:w-1/4 shadow hover:bg-amber-100 hover:text-black sm:ml-4 sm:w-auto"
                     href="/contactUs"

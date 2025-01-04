@@ -1,5 +1,5 @@
 'use client';
-
+import './page.css';
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
@@ -89,8 +89,12 @@ export default function Home() {
       />
       <div className="relative z-10">
         <Hero />
+        <div className="">
         <BusinessCategories />
+        </div>
+        <div className='hidden'>
         <FeaturesPlanet />
+        </div>
         <LargeTestimonial />
         <Cta />
       </div>

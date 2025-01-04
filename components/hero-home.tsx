@@ -16,10 +16,10 @@ export default function HeroHome() {
           <div className="text-center items-center justify-center">
           <div>
                 <h1 className="text-center mb-10">
-                <div className="relative w-1/2 mx-auto bg-gray-50 rounded-full items-center justify-center text-gray-400 font-bold text-4xl lg:text-[150px] animate-border shadow-[inset_0_0_20px_rgba(0,0,0,0.3)] px-4 py-1"
+                <div className="relative lg:h-[20vh] h-[15vh] flex w-[90%] lg:w-1/2 mx-auto bg-gray-50 rounded-full items-center justify-center text-gray-400 font-bold animate-border shadow-[inset_0_0_20px_rgba(0,0,0,0.3)]"
                   >
-                    <div className="mt-[-20px]">
-                    <span className="mr-1"
+                    <div className="pb-5">
+                    <span className="lg:mr-1 mr-2 text-[80px] lg:text-[150px]"
                       style={{
                         color: "#FF9519",
                         textShadow: "10px 0px black",
@@ -28,7 +28,7 @@ export default function HeroHome() {
                     >
                       n
                     </span>
-                    <span className="mr-1"
+                    <span className="lg:mr-1 mr-2 text-[80px] lg:text-[150px]"
                       style={{
                         color: "#4FA0FF",
                         textShadow: "10px 0px black",
@@ -36,7 +36,7 @@ export default function HeroHome() {
                     >
                       a
                     </span>
-                    <span className="mr-1"
+                    <span className="lg:mr-1 mr-2 text-[80px] lg:text-[150px]"
                       style={{
                         color: "#FFE34F",
                         textShadow: "10px 0px black",
@@ -44,7 +44,7 @@ export default function HeroHome() {
                     >
                       n
                     </span>
-                    <span className="mr-1"
+                    <span className="lg:mr-1 mr-2 text-[80px] lg:text-[150px]"
                       style={{
                         color: "#2DD702",
                         textShadow: "10px 0px black",
@@ -52,7 +52,7 @@ export default function HeroHome() {
                     >
                       e
                     </span>
-                    <span className="mr-1"
+                    <span className="lg:mr-1 mr-2 text-[80px] lg:text-[150px]"
                       style={{
                         color: "#FF1F00",
                         textShadow: "10px 0px black",
@@ -86,7 +86,7 @@ export default function HeroHome() {
             <LottiePlayer7 />
           </div>
           {/* Full width slider section */}
-          <div className="relative left-[50%] right-[50%] mx-[-50vw] w-screen">
+          <div className="lg:block hidden relative left-[50%] right-[50%] mx-[-50vw] w-screen">
             <SliderAnimation />
           </div>
           {/* Hero image */}
